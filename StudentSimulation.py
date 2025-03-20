@@ -97,7 +97,7 @@ class Student:
         elif self.money < 20:
             self.to_work()
 
-        return True  # Lisa is still alive
+        return True
 
     def live(self, day):
         day_text = f"Day {day} of {self.name}'s life"
